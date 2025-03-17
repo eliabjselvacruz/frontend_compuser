@@ -25,6 +25,7 @@ const Inicio = () => {
     <Container>
       <h1>¡Bienvenido, {nombreUsuario}!</h1>
       <p>Estás en la página de inicio.</p>
+      <p>Esta es mi aplicacion web.</p>
       <button onClick={cerrarSesion}>Cerrar Sesión</button>
     </Container>
   );
